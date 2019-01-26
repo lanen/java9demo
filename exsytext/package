@@ -1,3 +1,0 @@
-#!/bin/bash
-
-jar --create --file mods/hello.jar --main-class com.buyou.hello.Hello -C out/hello .
