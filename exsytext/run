@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "run way 1"
+java --module-path out --module hello/com.buyou.hello.Hello
+
+echo "run way 2"
+java --show-module-resolution --module-path mods --module hello
