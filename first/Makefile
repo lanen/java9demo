@@ -12,7 +12,8 @@ clean:
 	rm -rf image
 
 build: clean
-	javac -d out/$(name) $(SRCS)
+	#javac -d out/$(name) $(SRCS)
+	javac -d out --module-source-path src --module $(name)
 
 package: build
 	mkdir $(output)
